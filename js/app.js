@@ -1,3 +1,5 @@
 jQuery(document).ready(function(){
-    $(".collapse").collapse()
+    $(".collapse").collapse({
+        toggle: true
+    })
 }
