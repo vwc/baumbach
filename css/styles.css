@@ -4203,6 +4203,7 @@ body #outer-wrapper {
 }
 body #outer-wrapper #inner-wrapper {
   background-color: #FFF;
+  padding-bottom: 20px;
 }
 body #outer-wrapper #inner-wrapper .offset1 {
   margin-left: 72px;
@@ -4243,7 +4244,14 @@ body #outer-wrapper #inner-wrapper #content-wrapper {
 }
 body #outer-wrapper #inner-wrapper #content-wrapper #navigation {
   text-align: right;
-  color: ;
+}
+body #outer-wrapper #inner-wrapper #content-wrapper #navigation .nav {
+  margin-top: 7px;
+}
+body #outer-wrapper #inner-wrapper #content-wrapper #navigation .nav .active,
+body #outer-wrapper #inner-wrapper #content-wrapper #navigation .nav a:hover {
+  color: #595331;
+  background-color: #FFF;
 }
 body #outer-wrapper #inner-wrapper #content-wrapper #content {
   color: #575431;
